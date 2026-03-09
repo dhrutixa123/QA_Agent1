@@ -131,7 +131,7 @@ try:
 # test steps
 print("[PASS] TC-001")
 except Exception as e:
-page.screenshot(path="reports/screenshots/TC-001.png")
+page.screenshot(path="screenshots/TC-001-error.png")
 print("[FAIL] TC-001 -", str(e))
 raise e
 
